@@ -1,0 +1,18 @@
+Battery
+
+I used 12v Battery with 1000 mAh.
+
+The table Above shows how the voltage drops when the battery discharge.
+you should keep it in mind and you have to recharge the battery constantly.
+
+Discharge time is basically the Ah or mAh rating divided by the current.
+
+So for a 1000mAh battery with a load that draws 300mA you have:
+
+1000/300 = 3.3 hours
+
+If you drain more current the time will decrease and so on.
+
+Note: Make sure that you don't exceed the Battery Discharge Current or it will be damaged.
+
+Also again make a common Ground and connect all GNDs to it ( sensors, Arduino, Driver ) all grounds should be connected.

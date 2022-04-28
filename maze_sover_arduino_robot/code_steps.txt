@@ -1,0 +1,11 @@
+Code flow:
+
+defining the pins
+defining output and input pins
+check sensors' readings
+use sensors' reading to define walls
+check first route (if it was left then follow the left wall, if it's right follow the right wall)
+Use PID to avoid hitting the walls and to control motors' speed
+You can use this code but change the pins and the constant numbers to get the best results.
+
+Follow This Link for the code.

@@ -1,0 +1,17 @@
+if (IR1 == HIGH && IR2 == HIGH && IR3 == HIGH)
+    {
+     Forward();
+     delay(<Time>);
+     Stop();
+
+     if (IR1 == HIGH && IR2 == HIGH && IR3 == HIGH)
+        {
+          Serial.println("ËND OF MAZE");
+          Stop();
+        }
+     else
+        {
+         Serial.println("FOUR WAY INTERSECTION");
+         Left();
+        }
+    }
